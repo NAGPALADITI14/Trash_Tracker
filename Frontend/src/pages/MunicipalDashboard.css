@@ -8,16 +8,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: auto; /* Ensure content stays within bounds */
+    overflow-y: auto;
 }
 
 .dashboard-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* color: #fff; */
+    color: black;
     position:sticky;
     top:0;
     z-index:10;
+    margin-bottom: 20px;
     
 }
 
@@ -61,6 +63,7 @@
 table {
     width: 100%;
     border-collapse: collapse;
+    /* overflow-y: auto; */
     /* margin-top: 20px;
     background-color: #f9f9f9;
     overflow: scroll; */

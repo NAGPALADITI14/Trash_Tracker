@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css';
 
 const ChoroplethMap = ({ geoJsonData, sectorData }) => {
     useEffect(() => {
-      console.log("GeoJSON Data:", JSON.stringify(geoJsonData, null, 2)); // Log GeoJSON data in a readable format
+        console.log("GeoJSON Data:", JSON.stringify(geoJsonData, null, 2)); // Log GeoJSON data in a readable format
         // console.log("GeoJSON Data:", geoJsonData); // Log GeoJSON data
         console.log("Sector Data:", sectorData); // Log Sector data
     }, [geoJsonData, sectorData]);

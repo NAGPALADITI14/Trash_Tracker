@@ -72,6 +72,9 @@ const AuthPage = ({ setToken }) => {
 
     return (
         <div className="auth-page-wrapper">
+            <div className="slogan"> Raise Your Voice With </div>
+            <div className="welcome-banner">TRASH-TRACKER<div className="tagline">(A citizen powered waste reporting system)</div>
+                </div>
             <div className="auth-container">
                 {!isLoggedIn ? (
                     <>

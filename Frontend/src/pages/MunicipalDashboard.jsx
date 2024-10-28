@@ -117,7 +117,9 @@ const MunicipalDashboard = ({ token, onLogout }) => {
     };
 
     const handleDelete = async (reportId) => {
+        console.log("Update button clicked for report:", reportId);
         try {
+
             await axios.delete(`http://localhost:2000/api/garbage-report/${reportId}`, {
                 headers: { 'Authorization': `Bearer ${token}` }
             });
